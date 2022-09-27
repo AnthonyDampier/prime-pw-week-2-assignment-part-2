@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// The variable number equals 1. number =1
+// We then add 1 to the variable number. number =2
+// If number is greater than or equal to 2; then console 'yes'.
+// We console log 'yes', because the value of number is 2 and is equal to 2.
 
 //CODE
 /*
@@ -45,9 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Name holds the value 'Mary'
+// If 'Dane' (or name) is equal to 'Mary; then console log 'Hi, Mary!'. The console will not log this string because the statement is false.
+// Else we will console log 'how do you do?'. The console will log 'how do you do'.
 //
 
 //CODE
@@ -70,10 +70,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
+// The variable of secret is created/
+// The variable of code is created and assigned the value 123;
 // 
+// If code is equal to 123; the secret will be assigned 'super' as a value and code is be assigned the value of code *2;
 // 
-// 
+// If code is greater than 250; then secret equals 'duper'.
 //
+// The  console will log the value of secret. The is value of secret is 'duper'
 
 //CODE
 /*
@@ -92,8 +96,12 @@ if (isStudent === true && zip > 80000 ) {
 }
 
 */
-
-
+//4. WRITE YOUR DESCRIPTION HERE
+//Console will log 'Welcome to Prime!'
+//
+//
+//
+//
 
 
 // REVERSE
@@ -130,14 +138,29 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// Fix - colorOne needs to be set to 'blue
+// let colorOne = 'blue';
 let colorOne = 'red';
+
+// Fix - colorTwo needs to be set to 'red'
+// let colorTwo = 'red';
 let colorTwo = 'blue';
+
+// We check if colorOne is 'blue and colorTwo is 'red' 
+// If it is, mix is set to true;
+
+//var mix = false;
+// if (colorOne == 'blue' && colorTwo == 'red') {
+//   mix = true;
+//}
 let mix = true;
+
 
 if (mix === true) {
   colorOne = 'purple';
 }
 */
+
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -147,6 +170,10 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// || represents an 'OR' challenge. We need to assign a && that represents an 'AND' challenge.
+// if (temp > 39 && time >= 4){
+//  console.log('throw away the food!');
+//}
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,6 +186,13 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+// We need make if statment challenge wether age is greate than or equal to minAge OR make first challenge if minAge is less than age.
+// if (minAge > age){
+//   console.log('no entry');
+// } else {
+//   console.log('enter');
+//}
 
 if(minAge <= age) {
   console.log('no entry');
